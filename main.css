@@ -27,7 +27,7 @@ nav ul li a {
     text-decoration:none; 
 }
 
-/*sections */ 
+/*sections rgba(239, 239, 239, 0.473)*/ 
 
 header {
     background: rgba(239, 239, 239, 0.473); 
@@ -70,8 +70,13 @@ header h1 {
     text-align: center;
 }
 
+ .blog {
+    padding: 0 0 0 5px; 
+    background: red; 
+}
+
 section {
-    padding: 10px; 
+    padding: 15px; 
 }
 
 footer {
@@ -84,7 +89,9 @@ h1, h2, li{
 }
 
 a {
-    color:green; 
+    color:black;
+    text-decoration:none; 
+
 }
 
 p {
@@ -97,3 +104,10 @@ p {
     font-weight:500;  
 }
 
+
+
+.solid {
+    border-top: 0.5px solid #efefef; 
+    width: 90%; 
+    align-items: center;
+}
