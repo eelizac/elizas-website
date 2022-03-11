@@ -14,10 +14,10 @@ tl.fromTo(hero,1, {height:"0%"},{height:"80%", ea : Power2.easeInOut})
 window.addEventListener('scroll',()=>{
     let content = document.querySelector('.intro');
     let contentPosition = content.getBoundingClientRect().top; 
-    let screenPosition = window.innerHeight/1.5; 
+    let screenPosition = window.innerHeight / 1.7; 
     if (contentPosition < screenPosition) {
         content.classList.add('active');
-    } else {
+    } /*else {
         content.classList.remove('active')
-    }
+    }*/
 });

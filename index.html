@@ -2,6 +2,10 @@
 <html lang="en">
     <head> 
         <title> Eliza Chew </title>
+        <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+        <link rel="manifest" href="./img/site.webmanifest">
         <!-- can put it here, but it gets messy if you have a lot of rules 
         <style type="text/css">
             body {
@@ -17,13 +21,15 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
     </head>
     <body>
         <header>
             <nav>
                 <h1>Eliza Chew</h1>
                 <ul>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                     <li><a href="#">Projects</a></li>
                     <li><a href="blog.html">Blog</a></li>
                     <li>Home</li>                                 
@@ -33,7 +39,7 @@
                 <div class="hero">
                     <img src="./img/palm.jpg" alt="">
                     <h1 class="headline">
-                        Woohoo👇
+                        <strong>Woohoo👇</strong>
                     </h1>
                 </div>
             </section>
@@ -42,21 +48,33 @@
 
 
         <section class="intro-section ">
-            <br>
-            <h1>👋Welcome</h1>
-            <p class="intro">
-                Hey! Welcome to my website, thanks for visiting. I'm Eliza, a curious techie interested in the world around me. 
-                Please take a look around, you can find a rundown of what I have been up to, some of my biggest projects, 
-                and blogs of some topic areas that interest me. Feel free to reach out if you want to have a chat :) 
-            </p>      
+            <div class="intro-container">
+                <img src="./img/me-gif.gif" loading="lazy" width="418" lazy="loading"="lazy" alt class="mobile pic">
+                <div class="bio">
+                    Hello! My name is 
+                    <h2><strong>Eliza</strong></h2>
+                    <div class="degree"><strong>Data-Sci • Bsc</strong></div>
+                    I’m a Sydney based student who enjoys taking on diverse and challenging projects that inspire personal development and growth. I absolutely love being surrounded by the exciting atmosphere of passionate, determined teams and endeavour to find these opportunities whenever possible. <br> 
+                    Currently, I am a studying data science and decisions at the University of New South Wales (UNSW),  with an interest in building ethical algorithms. <br>
+                    Thanks for visiting - please look around to learn more about my experiences, see my portfolio of work, read some of my ideas and blogs, and get to know me both as an avid learner, tech enthusiast, and good vibes seeker!<br> 
+                </div>
+                
+            </div>
         </section>
 
         <section>
-            <h2>My Interests</h2>
+            <div class = "wave">
+                <img src="/img/beach.jpg" alt="">
+            </div>
             <div class="row">
-                <div class="col">Ethical AI</div>
-                <div class="col">Growth</div>
-                <div class="col">Sustainability</div>
+                <div class="col"><h1>My Interests</h1></div>
+                <div class="col">
+                    <ul class="interest">
+                        <li>Ethical AI</li>
+                        <li>Growth</li>
+                        <li>Superapps</li>
+                    </ul>
+                </div>
             </div>
         </section>
         <br>
