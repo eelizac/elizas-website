@@ -22,6 +22,8 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="parallax.min.js"></script>
     </head>
     </head>
     <body>
@@ -62,24 +64,20 @@
             </div>
         </section>
 
-        <section>
-            <div class = "wave">
-                <img src="/img/beach.jpg" alt="">
+        <div class="interest-section">
+            <div class="parallax" data-parallax="scroll"  data-image-src="img/beach.jpg">
             </div>
-            <div class="row">
-                <div class="col"><h1>My Interests</h1></div>
-                <div class="col">
-                    <ul class="interest">
-                        <li>Ethical AI</li>
-                        <li>Growth</li>
-                        <li>Superapps</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <br>
-        <br>
 
+            <div class="interest-container">
+                <div class="interest-header">
+                    <img src="./img/interest.png" loading="lazy" width="108" alt class="image-interest">
+                    <h2><strong>My Interests</strong></h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, eaque saepe voluptas est quae perferendis nesciunt incidunt accusantium. Nihil provident soluta quo perferendis? Officiis, qui assumenda explicabo at facilis sapiente
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quaerat quia laborum dolor quae doloremque qui sed id ut sit fuga, inventore, praesentium expedita beatae assumenda in rem velit tempora!
+                </p>
+            </div>
+        </div>
         <footer>
             <div>
                 <ul>
