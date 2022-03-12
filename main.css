@@ -188,7 +188,7 @@ section {
 
 .banner {
     display: flex; 
-    height: 90vh;
+    height: 50vh;
     width: 100%; 
     justify-content: center;
     align-items: center;
@@ -306,12 +306,12 @@ footer p {
 .interest-section {
     margin: 0 auto; 
     background: transparent; 
-}
+} 
 
 .interest-container {
     border: 1px solid transparent; 
     background-color: #efefef;
-    box-shadow: 1px 1px 3px 0 #000;
+   /* box-shadow: 1px 1px 3px 0 #000;*/
     display: block; 
     overflow: visible; 
     max-width: 1000px;
@@ -337,6 +337,26 @@ footer p {
     position: relative; 
 }
 
+.w-col {
+    position: relative; 
+    float: left; 
+    width: 33.3%; 
+    min-height: 1px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    background: #efefef; 
+    max-width: 940px;
+
+}
+
+.interest-table {
+    margin-top: 44px; 
+    width: 940px; 
+    align-items: center;
+    margin-left: auto; 
+    margin-right: auto; 
+    justify-self: center; 
+}
 /*
 .wave  {
     background: url('img/beach.jpg') no-repeat center; 
@@ -348,8 +368,16 @@ footer p {
 /* from contact */ 
 
 .parallax {
-    background: transparent;
-    padding: 200px 35px;
+    /*background: transparent;
+    padding: 200px 35px; */
+    background-image: url(img/beach.jpg); 
+    margin-top: -41px;
+    margin-bottom: -57px; 
+    background-position: 0% 0%; 
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit:fill; 
+    height: 350px; 
 }
 
 .parallax-info {
