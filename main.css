@@ -396,3 +396,58 @@ footer div {
     background: red; 
     height: 50vh; 
 }
+
+
+/* MY EXPERIENCES SECTION */ 
+.experiences-table {
+    padding: 20px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.fcol {
+    padding: 20px;
+}
+
+.rolename {
+    font-size: 30px; 
+    width: 30%; 
+    float: left; 
+    font-weight: 700;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.description {
+    width: 40%; 
+    float: left; 
+    font-size: 20px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.experience-body {
+    background: radial-gradient(#c0ebe3, #e4b8f4);
+    background-size: 400% 400%;
+    animation: AnimationName 25s ease infinite;
+}
+
+.row-role {
+    padding: 20px 10px; 
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    height: 30vh; 
+    color: forestgreen;
+    margin-left: auto; 
+    margin-right: auto; 
+    max-width: 1200px; 
+}
+
+.head-exp {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+    text-align: center; 
+}
